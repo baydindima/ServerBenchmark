@@ -1,0 +1,7 @@
+option java_package = "edu.spbau.master.java.bemchmark.servers.model";
+option java_outer_classname = "Messages";
+
+message ArrayMessage {
+    optional int32 element_count = 1;
+    repeated int32 elements = 2;
+}
