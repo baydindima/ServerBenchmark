@@ -166,7 +166,7 @@ public class ClientGUI extends JFrame {
                                 return;
                             }
 
-                            curFuture = sessionRunner.runWithVariableClientCount(startValue, finishValue, stepValue, elementPerRequest, delayBetweenRequest);
+                            curFuture = sessionRunner.runWithVariableElementsPerRequest(startValue, finishValue, stepValue, elementPerRequest, delayBetweenRequest);
                         }
                         cancelButton.setEnabled(true);
 
